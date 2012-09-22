@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 
-<html>
-
 <head>
 
 	<style type='text/css'>
+	
+		#cylinder {
+					margin: auto;
+					background-color: grey;
+		}
+	</style>
 	
 </head>
 
