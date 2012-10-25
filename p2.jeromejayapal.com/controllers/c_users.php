@@ -20,7 +20,7 @@ class users_controller extends base_controller {
 	public function p_signup() {
 		
 		# Dump out the results of POST to see what the form submitted
-		// print_r($_POST);
+		//print_r($_POST);
 	
 		# Encrypt the password	
 		$_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);	
