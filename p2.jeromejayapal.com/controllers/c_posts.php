@@ -142,5 +142,29 @@ class posts_controller extends base_controller {
 		Router::redirect("/posts/users");
 
 	}
+	
+	public function random() {
+
+		# Set up the view
+		$this->template->content = View::instance("v_posts_random");
+		$this->template->title   = "Random";
+		
+		# Build our query to get all the users
+		$q = "SELECT *
+			FROM posts
+			ORDER BY rand()
+			LIMIT 1";
+			
+		# Execute the query to get all the users. Store the result array in the variable $users
+		$users = DB::instance(DB_NAME)->select_rows($q);
+		
+						
+		# Pass data (users and connections) to the view
+		$this->template->content->users       = $users;
+		
+
+		# Render the view
+		echo $this->template;
+	}
 
 }

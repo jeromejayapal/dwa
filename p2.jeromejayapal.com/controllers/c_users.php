@@ -96,6 +96,12 @@ class users_controller extends base_controller {
 			
 		# Render template
 		echo $this->template;
+		
+		# Build a query of the users this user is following - we're only interested in their posts
+		$q = "SELECT * 
+			FROM posts
+			WHERE user_id = ".$this->user->user_id;
+		
 	}
 	
 	public function logout() {
@@ -116,5 +122,7 @@ class users_controller extends base_controller {
 		echo "You have been logged out.";
 
 	}
+	
 		
 } # end of the class
+
