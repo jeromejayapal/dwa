@@ -1,9 +1,10 @@
-<? foreach($posts as $post): ?>
+
 	
-	
-	<h2><?=$post['first_name']?> <?=$post['last_name']?> posted:</h2>
-	<?=$post['content']?>
-	
-	<br><br>
+<? foreach ($random as $single): ?>	
+
+
+	<h2>
+	<?=$random['first_name']?> <?=$random['last_name']?> posted:</h2>
+	<?=$random['content']?>
 	
 <? endforeach; ?>

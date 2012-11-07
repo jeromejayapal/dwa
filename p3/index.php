@@ -8,7 +8,7 @@
 					width: 900px;
 					margin: auto;
 					background-color: #E0E0E0;
-					padding: 55px;
+					padding: 20px;
 		}
 		
 		body {

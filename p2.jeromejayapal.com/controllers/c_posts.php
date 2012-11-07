@@ -152,15 +152,17 @@ class posts_controller extends base_controller {
 		# Build our query to get all the users
 		$q = "SELECT *
 			FROM posts
+			JOIN users USING (user_id)
 			ORDER BY rand()
 			LIMIT 1";
 			
+			
 		# Execute the query to get all the users. Store the result array in the variable $users
-		$users = DB::instance(DB_NAME)->select_rows($q);
-		
+		$random = DB::instance(DB_NAME)->select_rows($q);
+		#echo Debug::dump($random,'Random Post');
 						
 		# Pass data (users and connections) to the view
-		$this->template->content->users       = $users;
+		$this->template->content->random = $random;
 		
 
 		# Render the view

@@ -94,15 +94,24 @@ class users_controller extends base_controller {
 		$this->template->content = View::instance('v_users_profile');
 		$this->template->title   = "Profile of".$this->user->first_name;
 			
-		# Render template
-		echo $this->template;
-		
+			
 		# Build a query of the users this user is following - we're only interested in their posts
 		$q = "SELECT * 
 			FROM posts
+			JOIN users USING (user_id)
 			WHERE user_id = ".$this->user->user_id;
 		
+		$posts = DB::instance(DB_NAME)->select_rows($q);
+		
+		# Pass data (users and connections) to the view
+		$this->template->content->posts       = $posts;
+		#$this->template->content->connections = $connections;
+
+		# Render the view
+		echo $this->template;
+		
 	}
+	
 	
 	public function logout() {
 		
