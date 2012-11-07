@@ -158,7 +158,7 @@ class posts_controller extends base_controller {
 			
 			
 		# Execute the query to get all the users. Store the result array in the variable $users
-		$random = DB::instance(DB_NAME)->select_rows($q);
+		$random = DB::instance(DB_NAME)->select_row($q);
 		#echo Debug::dump($random,'Random Post');
 						
 		# Pass data (users and connections) to the view
