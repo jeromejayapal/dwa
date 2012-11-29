@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 
 <head>
+	<title>Grocery Shopping List</title>
+	
+	<link rel="stylesheet" href="shopping-list.css" type="text/css">
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 	
-	<script type='text/javascript'>
-		
-		$(document).ready(function() { // start doc ready; do not delete this!
-		
-					
-		}); // end doc ready; do not delete this!
-		
+	<script type="text/javascript" src="shopping-list.js"></script>
+
 	</script>
 
 
@@ -19,6 +18,56 @@
 
 <body>
 
+<div id='wrapper'>
+
+	<h1>Grocery Shopping List</h1>
+
+	<div id='left-side'>
+	
+			
+		<!-- Items -->	
+		<h2>Pick a items</h2>
+			<input type='checkbox' name='value1' value='Milk'><label for='milk'>&nbsp;Milk</label><br>
+			<input type='checkbox' name='value2' value='Eggs'><label for='eggs'>&nbsp;Eggs</label><br>
+			<input type='checkbox' name='value3' value='Bread'><label for='bread'>&nbsp;Bread</label><br>
+			<input type='checkbox' name='value4' value='Pizza'><label for='pizza'>&nbsp;Pizza</label><br>	
+			<input type='checkbox' name='value5' value='Orange Juice'><label for='orange-juice'>&nbsp;Orange Juice</label><br>
+			<input type='checkbox' name='value6' value='Cheese'><label for='cheese'>&nbsp;Cheese</label><br>
+			<input type='checkbox' name='value7' value='Chicken'><label for='chicken'>&nbsp;Chicken</label><br>
+			<input type='checkbox' name='value8' value='Ice cream'><label for='ice-cream'>&nbsp;Ice Cream</label><br>	
+	
+		
+		<!-- Manually enter other items -->	
+		<h2>Enter other items</br>
+		<small>(use comma to separate multiple items)</small></h2>
+			<input type='text' id='recipient' maxlength="64">
+			<div class='error' id='recipient-error'></div>
+		
+			
+				
+		<!-- Finalize Buttons -->
+		<br><br>
+		<input type='button' id='refresh-button' value='Clear Card'>
+		<input type='button' id='print-button' value='Print'>
+		
+	</div>
+	
+	<!-- The Card -->
+	<div id='right-side'>
+		<div id='card'>
+			<div id='canvas'>
+				<div id='message-in-canvas'></div>
+				<div id='recipient-in-canvas'></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class='footer'></div>
+	
+</div>
+
+<br><br><br><br>
+	
 	
 	
 </body>

@@ -1,0 +1,117 @@
+body {
+	font-family:verdana;
+	font-size: 12px;
+	}
+
+#wrapper {
+	width:960px;
+	margin:0px auto;
+}
+
+h1 {	
+	text-align:center;
+	font-size:30px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+#left-side {
+	width:425px;
+	margin-right:50px;
+	float:left;
+}
+
+#right-side {
+	width:318px;
+	float:left;
+}
+
+#card {
+	background-image:url('images/notebook.png');
+	background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	height:513px;
+	width:318px;
+	margin:0px auto;
+}
+
+#canvas {
+	width:318px;
+	height:469px;
+	position:relative;
+	top:33px;
+	left:16px;
+	overflow:hidden;
+}
+
+img {
+	width:318px;
+	height:469px;
+	}
+
+.footer {
+	clear:both;
+}
+
+p {
+	margin:0px 0px 17px 0px;
+	}
+	
+	
+h2 {
+	font-family:Verdana;
+	font-size:15px;
+	margin-top:30px;
+	margin-bottom:5px;
+	border-bottom:1px dotted #ccc;
+}
+
+.draggable {
+	cursor:move;
+}
+
+.new-draggable {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#message-in-canvas {
+	width:100%;
+	padding-top:25px;
+	text-align:left;
+	padding-left:35px;
+	/*font-size:35px;
+	font-family:georgia;*/
+	z-index:999;
+}
+
+#recipient {
+	font-size:20px;
+}
+
+#recipient-in-canvas {
+	/*width:100%;
+	text-align:center;
+	font-size:30px;
+	z-index:999;*/
+	width:100%;
+	text-align:left;
+	padding-left:35px;
+}
+
+.error {
+	color:red;
+	font-size:10px;
+	height:15px;
+}
+
+
+.graphic-search-image {
+	margin-right:5px;
+}
+
+.graphic-search-results {
+	margin-top:5px;
+}
+
