@@ -12,6 +12,21 @@
 	<!-- Controller Specific JS/CSS -->
 	<?=@$client_files; ?>
 	
+	<style type='text/css'>
+	
+		#cylinder {
+					width: 900px;
+					margin: auto;
+					background-color: #E0E0E0;
+					padding: 20px;
+		}
+		
+		body {
+					font-family: Arial;
+		}
+		
+	</style>
+	
 </head>
 
 <body>	
