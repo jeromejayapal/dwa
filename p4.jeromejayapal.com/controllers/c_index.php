@@ -16,7 +16,7 @@ class index_controller extends base_controller {
 			$this->template->content = View::instance('v_index_index');
 			
 		# Now set the <title> tag
-			$this->template->title = "Hello World";
+			$this->template->title = "Jerome Jayapal Blog";
 	
 		# If this view needs any JS or CSS files, add their paths to this array so they will get loaded in the head
 			$client_files = Array(
@@ -35,15 +35,29 @@ class index_controller extends base_controller {
 		
 		# Any method that loads a view will commonly start with this
 		# First, set the content of the template with a view file
-			$this->template->content = View::instance('v_proposal');
+			$this->template->content = View::instance('v_index_proposal');
 			
 		# Now set the <title> tag
 			$this->template->title = "Proposal";
-	
+		
 		      		
 		# Render the view
 			echo $this->template;
 
 	}
+	public function aboutme() {
 		
+		# Any method that loads a view will commonly start with this
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_index_aboutme');
+			
+		# Now set the <title> tag
+			$this->template->title = "About Me";
+		
+		      		
+		# Render the view
+			echo $this->template;
+
+	}
+	
 } // end class
