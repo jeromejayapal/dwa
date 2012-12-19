@@ -34,7 +34,10 @@ class users_controller extends base_controller {
 		# Insert this user into the database 
 		$user_id = DB::instance(DB_NAME)->insert("users", $_POST);
 			
-		
+		{
+			setcookie("token", $token, strtotime('+2 weeks'), '/');
+			Router::redirect("/");
+		}
 	}
 	
 	public function login($error = NULL) {

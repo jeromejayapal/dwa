@@ -46,33 +46,7 @@
         
 	</script>
 	
-	<style type='text/css'>
-	
-		#cylinder {
-					width: 900px;
-					margin: auto;
-					background-color: #E0E0E0;
-					padding: 20px;
-
-		}
-		
-		img {
-					padding: 0px;
-		}
-		
-		body {
-					font-family: Arial;
-		}
-		
-		ul.nav {
-					list-style:none;
-    				margin-top:0px;
-    				margin-left:7px;
-    				margin-bottom:0;
-    				text-transform:capitalize;
-					display:inline;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="../scripts/v_index_index.css">
 	
 </head>
 
@@ -85,14 +59,26 @@
 		</div>
 		
 			<ul class="nav">
-				<li class="home">Home</li><li class="about">About Me</li><li class="contact">Contact</li>
+				<li class="home"><a href="index/index">Home</a></li>
+				<li class="about"><a href="index/aboutme">About Me</a></li>
+				<li class="contact"><a href="index/contact">Contact</a></li>
+				<li class="proposal"><a href="index/proposal">Proposal</a></li>
 			</ul>
 		
 		<br />
 		<img src="../images/homepage.jpg">
 		
-		<p>The beginning of something great...</p>
-		
+		<div>
+		<? foreach($posts as $post): ?>
+	
+	
+			<h2>Posted: <?=$post['created']?> </h2>
+			<?=$post['content']?>
+	
+			<br><br>
+	
+		<? endforeach; ?>
+		</div>
 		
 	</div>
 		

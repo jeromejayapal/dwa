@@ -18,16 +18,20 @@ class index_controller extends base_controller {
 		# Now set the <title> tag
 			$this->template->title = "Jerome Jayapal Blog";
 	
-		# If this view needs any JS or CSS files, add their paths to this array so they will get loaded in the head
-			$client_files = Array(
-						""
-	                    );
-	    
-	    	$this->template->client_files = Utils::load_client_files($client_files);   
-	      		
-		# Render the view
-			echo $this->template;
-
+		# Build our query
+		$q = "SELECT *
+			FROM posts
+			JOIN users USING (user_id)";
+			
+		# Run our query, grabbing all the posts joining in the users
+		$posts = DB::instance(DB_NAME)->select_rows($q);
+		
+		# Pass data to the view
+		$this->template->content->posts = $posts;
+		
+		# Render view
+		echo $this->template;		
+		
 	}
 	
 	
@@ -53,6 +57,21 @@ class index_controller extends base_controller {
 			
 		# Now set the <title> tag
 			$this->template->title = "About Me";
+		
+		      		
+		# Render the view
+			echo $this->template;
+
+	}
+	
+	public function contact() {
+		
+		# Any method that loads a view will commonly start with this
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_index_contact');
+			
+		# Now set the <title> tag
+			$this->template->title = "Contact";
 		
 		      		
 		# Render the view
