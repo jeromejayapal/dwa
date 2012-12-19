@@ -8,43 +8,9 @@
 	<!-- JS -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script src="../scripts/v_index_index.js"></script>
 				
 	<!-- Controller Specific JS/CSS -->
-	<script type='text/javascript'>
-
-        $('document').ready(function() { // start doc ready; do not delete this!        
-                
-                $('#logo').click(function() {        
-                        console.log("You clicked on Logo.");
-                });
-        
-        }); // end doc ready
-        
-		$('document').ready(function() { // start doc ready; do not delete this!        
-                
-                $('.home').click(function() {        
-                        console.log("You clicked on Logo.");
-                });
-        
-        }); // end doc ready
-        
-		$('document').ready(function() { // start doc ready; do not delete this!        
-                
-                $('.about').click(function() {        
-                        console.log("You clicked on Logo.");
-                });
-        
-        }); // end doc ready
-        
-		$('document').ready(function() { // start doc ready; do not delete this!        
-                
-                $('.contact').click(function() {        
-                        console.log("You clicked on Logo.");
-                });
-        
-        }); // end doc ready
-        
-	</script>
 	
 	<link rel="stylesheet" type="text/css" href="../scripts/v_index_index.css">
 	
@@ -58,12 +24,14 @@
 			<h1>Jerome Jayapal</h1>
 		</div>
 		
+		<div>
 			<ul class="nav">
-				<li class="home"><a href="index/index">Home</a></li>
-				<li class="about"><a href="index/aboutme">About Me</a></li>
-				<li class="contact"><a href="index/contact">Contact</a></li>
-				<li class="proposal"><a href="index/proposal">Proposal</a></li>
+				<li class="inline"><a href="index/index">Home</a></li>
+				<li class="inline"><a href="index/aboutme">About Me</a></li>
+				<li class="inline"><a href="index/contact">Contact</a></li>
+				<li class="inline"><a href="index/proposal">Proposal</a></li>
 			</ul>
+		</div>
 		
 		<br />
 		<img src="../images/homepage.jpg">

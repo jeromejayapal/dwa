@@ -1,5 +1,3 @@
-<script type='text/javascript'>
-
         $('document').ready(function() { // start doc ready; do not delete this!        
                 
                 $('#logo').click(function() {        
@@ -32,4 +30,4 @@
         
         }); // end doc ready
         
-	</script>
+	
