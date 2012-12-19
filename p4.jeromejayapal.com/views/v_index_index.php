@@ -72,7 +72,7 @@
 		<? foreach($posts as $post): ?>
 	
 	
-			<h2>Posted: <?=$post['created']?> </h2>
+			<h2>Posted: <?= date("m/d/Y",$post['created']) ?> </h2>
 			<?=$post['content']?>
 	
 			<br><br>
