@@ -18,36 +18,35 @@
 
 <body>	
 	
+
+	
+	
 	<div id='cylinder'>
-				
-		<div id='logo'>
-			<h1>Jerome Jayapal</h1>
-		</div>
-		
-		<div>
-			<ul class="nav">
-				<li class="inline"><a href="index/index">Home</a></li>
-				<li class="inline"><a href="index/aboutme">About Me</a></li>
-				<li class="inline"><a href="index/contact">Contact</a></li>
-				<li class="inline"><a href="index/proposal">Proposal</a></li>
-			</ul>
-		</div>
 		
 		<br />
 		<img src="../images/homepage.jpg">
-		
-		<div>
+	
+	</div>
+	<br /><br /><br />	
+	<div id='blog'>
+	
 		<? foreach($posts as $post): ?>
 	
-	
-			<h2>Posted: <?= date("m/d/Y",$post['created']) ?> </h2>
-			<?=$post['content']?>
+			<h2><?=$post['title']?></h2>
+			-----------------------------------------------------------------------------------
+			<h4>BY: JEROME JAYAPAL | Posted: <?= date("m/d/Y",$post['created']) ?> </h4>
+			<h3><?=$post['content']?></h3>
 	
 			<br><br>
 	
 		<? endforeach; ?>
-		</div>
+	
+	</div>
 		
+	</div>
+	
+	<div id='footer'>
+	
 	</div>
 		
 </body>
