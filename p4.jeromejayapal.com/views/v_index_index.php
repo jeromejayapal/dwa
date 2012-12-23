@@ -21,7 +21,7 @@
 	<br /><br />
 	<div id='cylinder'>
 
-		<img src="../images/homepage.jpg" height="440" width="900">
+		<img src="../images/homepage.jpg" height="440" width="900" alt="Colorado wilderness">
 	
 	</div>
 	<br /><br /><br />	

@@ -4,12 +4,7 @@
 
 	<style type='text/css'>
 	
-		#cylinder {
-					width: 900px;
-					margin: auto;
-					background-color: #E0E0E0;
-					padding: 30px;
-		}
+
 		
 		img {
 					width: 216px; height: 194px;
@@ -29,7 +24,7 @@
 
 	<div id='cylinder'>
 				
-		<img src='../images/profile.jpg'>
+		<img src='../images/profile.jpg' alt="Jerome Jayapal's dashing good looks>
 		<h1>Jerome Jayapal</h1>
 		<p>Hello! My name is Jerome Jayapal. Here's a little bit about me.
 		I recently graduated from Davenport University in Grand Rapids and 
@@ -38,7 +33,7 @@
 		<p>This website is part of a project for CSCI E-75 with Professor
 		Susan Buck and you may find parts of this website under construction.
 		Don't worry though I'm working on making it better. Thanks for visiting!</p>
-		
+		<br /><br />
 		
 	</div>
 		

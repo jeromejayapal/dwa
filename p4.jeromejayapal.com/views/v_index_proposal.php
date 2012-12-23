@@ -41,7 +41,7 @@
 		<div>
 		<br />
 		<h2>Sketches</h2>
-		<img src='../images/p4_sketch.png'>
+		<img src='../images/p4_sketch.png' alt="Sketch of website: Homepage, About Me page and Contact page">
 		</div>
 	</div>
 </body>
