@@ -24,7 +24,7 @@
 </head>
 
 <body>	
-	
+	<br /><br />
 	<div id='blog'>		
 			<img class='profile' src="../images/slide-3.jpg" alt="Jerome Jayapal looking cute">
 			<p>How are we going to keep in touch? Great question! The first way
