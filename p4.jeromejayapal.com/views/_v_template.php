@@ -15,12 +15,17 @@
 	
 	<style type='text/css'>
 	
+		* {
+					margin: 0;
+					padding: 0;
+		}
 		
 		#cylinder {
 					width: 900px;
 					margin: auto;
 					background-color: white;
 					padding: 20px;
+					
 		}
 		
 		#blog {
@@ -29,6 +34,7 @@
 					background-color: white;
 					padding: 20px;
 		}
+		
 		
 		body {
 					font-family: Arial;
@@ -39,14 +45,21 @@
 					background-color: #383838;
 					margin-left:-7px;
 					margin-right:-7px;
+
+		}
+		
+		#footer {
+					background-color: #383838;
+					height:15px;
+					
+
 		}
 		
 		#logo {
 					color:white;
-					height:55px;
+					height:35px;
 					position:abosolute;
 					top:50%;
-					margin-top:-24px;
 					padding:10px;
 					padding-left:180px;
 					display:inline-block;
@@ -63,6 +76,10 @@
 		a:hover {color:grey; text-decoration:none;}  /* mouse over link */
 		a:active {color:white; text-decoration:none;}  /* selected link */
 		
+		small {
+					color:grey;
+		}
+		
 	</style>
 	
 </head>
@@ -70,19 +87,23 @@
 <body>
 
 	<div id='header'>
-	
-
 			
 				<ul>
 					<li class="logo" id="logo"><h1>Jerome Jayapal</h1></l1>
-					<li class="inline"><a href="index">Home</a></li>
-					<li class="inline"><a href="index/aboutme">About Me</a></li>
-					<li class="inline"><a href="index/contact">Contact</a></li>
-					<li class="inline"><a href="index/proposal">Proposal</a></li>
+					<li class="inline"><a href="/index">Home</a></li>
+					<li class="inline"><a href="/index/aboutme">About Me</a></li>
+					<li class="inline"><a href="/index/contact">Contact</a></li>
+					<li class="inline"><a href="/index/proposal">Proposal</a></li>
 				</ul>
 	</div>
 
 	<?=$content;?> 
+	
+	
+	
+	<div id='footer'>
+	
+	</div>
 
 </body>
 </html>

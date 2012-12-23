@@ -18,10 +18,15 @@ class index_controller extends base_controller {
 		# Now set the <title> tag
 			$this->template->title = "Jerome Jayapal Blog";
 	
+	
 		# Build our query
 		$q = "SELECT *
 			FROM posts
-			JOIN users USING (user_id)";
+			JOIN users USING (user_id)
+			WHERE user_id='1'
+			ORDER BY post_id DESC
+			LIMIT 10";
+			
 			
 		# Run our query, grabbing all the posts joining in the users
 		$posts = DB::instance(DB_NAME)->select_rows($q);

@@ -17,14 +17,10 @@
 </head>
 
 <body>	
-	
-
-	
-	
+	<br /><br />
 	<div id='cylinder'>
-		
-		<br />
-		<img src="../images/homepage.jpg">
+
+		<img src="../images/homepage.jpg" height="440" width="900">
 	
 	</div>
 	<br /><br /><br />	
@@ -33,8 +29,9 @@
 		<? foreach($posts as $post): ?>
 	
 			<h2><?=$post['title']?></h2>
-			-----------------------------------------------------------------------------------
-			<h4>BY: JEROME JAYAPAL | Posted: <?= date("m/d/Y",$post['created']) ?> </h4>
+			<small>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </small>
+			<h5>BY: JEROME JAYAPAL | Posted: <?= date("m/d/Y",$post['created']) ?> </h5>
+			<br />
 			<h3><?=$post['content']?></h3>
 	
 			<br><br>
