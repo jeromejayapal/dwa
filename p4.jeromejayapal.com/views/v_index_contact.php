@@ -13,25 +13,30 @@
 	<script type='text/javascript'>
        
 	</script>
-	
-	<link rel="stylesheet" type="text/css" href="../scripts/v_index_index.css">
+	<style type='text/css'>
+		img.profile {
+					width: 302px; height: 226px;
+					float: right;
+					padding: 10px;
+		}
+	</style>
 	
 </head>
 
 <body>	
 	
-	<div id='cylinder'>			
-		<div id='logo'>
-			<h1>Jerome Jayapal</h1>
-		</div>
+	<div id='blog'>		
+			<img class='profile' src="../images/slide-3.JPG">
 			<p>How are we going to keep in touch? Great question! The first way
-			is by visiting this website. Below are some other social media applications
+			is by visiting this website. Below are links to some other social media applications
 			that I use.</p>
+			<br /><br /><br /><br /><br /><br /><br /><br />
 		<div id="contact">
-			<img src="../images/facebook.PNG" heigth="30" width="30">
-			<img src="../images/twitter.PNG" heigth="30" width="30">
-			<img src="../images/xbox.JPG" heigth="30" width="30">
-			<img src="../images/email.JPG" heigth="30" width="30">
+			<a href="https://www.facebook.com/jerome.jayapal" target="_blank"><img src="../images/facebook.PNG"  heigth="30" width="30"></a>
+			<a href="http://twitter.com/jeromejayapal" target="_blank"><img src="../images/twitter.PNG" heigth="30" width="30"></a>
+			<a href="https://live.xbox.com/en-US/Profile?GamerTag=TheSticker" target="_blank"><img src="../images/xbox.JPG" heigth="30" width="30"></a>
+			<a href="mailto:jeromejayapal@fas.harvard.edu"><img src="../images/email.JPG" heigth="30" width="30"></a>
+		</div>
 		</div>
 	</div>
 		

@@ -5,10 +5,10 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
 	
-	<!-- JS -->
+	<!-- JS 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-
+	-->
 				
 	<!-- Controller Specific JS/CSS -->
 	<?=@$client_files; ?>
@@ -34,7 +34,6 @@
 					background-color: white;
 					padding: 20px;
 		}
-		
 		
 		body {
 					font-family: Arial;
@@ -69,6 +68,7 @@
 		li.inline {
 					display:inline-block;
 					list-style:none;
+					padding-left:10px;
 		}
 		
 		a:link {color:white; text-decoration:none;}      /* unvisited link */
