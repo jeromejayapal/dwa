@@ -24,7 +24,7 @@
 
 	<div id='cylinder'>
 				
-		<img src='../images/profile.jpg' alt="Jerome Jayapal's dashing good looks>
+		<img src='../images/profile.jpg' alt="Jerome Jayapal's dashing good looks">
 		<h1>Jerome Jayapal</h1>
 		<p>Hello! My name is Jerome Jayapal. Here's a little bit about me.
 		I recently graduated from Davenport University in Grand Rapids and 
