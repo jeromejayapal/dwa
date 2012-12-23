@@ -19,7 +19,7 @@
 		<br />
 		<strong>jerome@gmail.com
 		<br />
-		admin</strong>
+		jerome</strong>
 		<br /><br />
 		To test blog posts: You can login at p4.jeromejayapal.com/users/login with admin account information above.
 		For security reasons I have not created a link to this page anywhere.<br/><br />
