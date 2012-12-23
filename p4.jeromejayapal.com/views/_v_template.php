@@ -96,7 +96,7 @@
 	<div id='header'>
 			
 				<ul>
-					<li class="logo" id="logo"><h1>Jerome Jayapal</h1></l1>
+					<li class="logo" id="logo"><a href="/"><h1>Jerome Jayapal</h1></a></l1>
 					<li class="inline"><a href="/index">Home</a></li>
 					<li class="inline"><a href="/index/aboutme">About Me</a></li>
 					<li class="inline"><a href="/index/contact">Contact</a></li>
