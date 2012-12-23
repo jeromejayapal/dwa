@@ -15,19 +15,18 @@
 		<br />
 		<h2 style="color:red">Details for Professor Susan Buck</h2>
 		<br />
-		<p>Admin account:
+		<p style="color:red">Admin account:
 		<br />
 		<strong>jerome@gmail.com
 		<br />
 		admin</strong>
 		<br /><br />
-		To test blog posts: You can login at p4.jeromejayapal.com/users/login. Upon login you will be taken to posts page,
-		after posting you will be taken to the home page where you can view your posts.<br/><br />
-		These behind-the-scenes links are not shown to the user because I will be the only one making posts. 
-		In some ways I view this as	a CMS because it does not require me to go to the database to add posts.<br /><br />
+		To test blog posts: You can login at p4.jeromejayapal.com/users/login with admin account information above.
+		For security reasons I have not created a link to this page anywhere.<br/><br />
+		
 		Technically, you are able to create your own profile at p4.jeromejayapal.com/users/signup but their posts do not
 		show up on the homepage but instead on the p4.jeromejayapal.com/posts/index. You can logout at p4.jeromejayapal.com/users/logout.
-		These options are left in because I may decided to incorporate some sort of community within the website.
+		These options are left in because I may decided to incorporate some sort of community within the website in the future.
 		</p>
 		
 		
