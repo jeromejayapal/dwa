@@ -76,9 +76,16 @@
 		a:hover {color:grey; text-decoration:none;}  /* mouse over link */
 		a:active {color:white; text-decoration:none;}  /* selected link */
 		
+		a:link.regular {color:black; text-decoration:none;}      /* unvisited link */
+		a:visited.regular {color:black; text-decoration:none;}  /* visited link */
+		a:hover.regular {color:grey; text-decoration:none;}  /* mouse over link */
+		a:active.regular {color:black; text-decoration:none;}  /* selected link */
+		
 		small {
 					color:grey;
 		}
+		
+		
 		
 	</style>
 	
@@ -93,7 +100,6 @@
 					<li class="inline"><a href="/index">Home</a></li>
 					<li class="inline"><a href="/index/aboutme">About Me</a></li>
 					<li class="inline"><a href="/index/contact">Contact</a></li>
-					<li class="inline"><a href="/index/proposal">Proposal</a></li>
 				</ul>
 	</div>
 

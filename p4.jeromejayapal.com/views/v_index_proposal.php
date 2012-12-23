@@ -1,19 +1,48 @@
+<body alink="black">
 	<div id='cylinder'>
 		
 		<h1>Project 4 Proposal - Jerome Jayapal</h1>
+		<br />
 		<p>CSCI E-75</p>
+		<br />
 		<h2>Overview</h2>
+		<br />
 		<p>My proposal for project 4 is to do a personal blog. The title of this project
-		will simply be Jerome Jayapal Blog or just Jerome Jayapal website. I've been wanting to work on
-		a personal website for a while and think that this a great opportunity to finally work on it.
-		Navigating through the website will include JavaScript. There might also be a contact page that 
-		would be done using JavaScript. Photography is a hobby of mine and I'm hoping to incorporate 
-		it into the website through the use of a database. </p>
+		will simply be Jerome Jayapal Blog or just Jerome Jayapal website. The website will 
+		only consist of a few webpages that are available for the end user: 
+		home page, about me, and a contact page. I will be building the blog portion
+		of the website utilizing a database very similar to p2 with slight modifications and additions.</p>
+		<br />
+		<h2 style="color:red">Details for Professor Susan Buck</h2>
+		<br />
+		<p>Admin account:
+		<br />
+		<strong>jerome@gmail.com
+		<br />
+		admin</strong>
+		<br /><br />
+		To test blog posts: You can login at p4.jeromejayapal.com/users/login. Upon login you will be taken to posts page,
+		after posting you will be taken to the home page where you can view your posts.<br/><br />
+		These behind-the-scenes links are not shown to the user because I will be the only one making posts. 
+		In some ways I view this as	a CMS because it does not require me to go to the database to add posts.<br /><br />
+		Technically, you are able to create your own profile at p4.jeromejayapal.com/users/signup but their posts do not
+		show up on the homepage but instead on the p4.jeromejayapal.com/posts/index. You can logout at p4.jeromejayapal.com/users/logout.
+		These options are left in because I may decided to incorporate some sort of community within the website.
+		</p>
+		
+		
+		<br />
 		<h2>Examples</h2>
-		<p>One of my favorite photography blogs: <a href="http://scottkelby.com/">http://scottkelby.com/</a>
+		<br />
+		<p>One of my favorite photography blogs: <a href="http://scottkelby.com/" class="regular">http://scottkelby.com/</a>
 		<br /><br />
-		A friend's website that incorporates JavaScript into the naviagation: <a href="http://www.nicholasgebben.com/">http://www.nicholasgebben.com/</a>
+		A friend's website that incorporates JavaScript into the naviagation: <a href="http://www.nicholasgebben.com/" class="regular">http://www.nicholasgebben.com/</a>
 		<br /><br />
-		A friend's photography website: <a href="http://marklightphotography.com/#/gallery/boston-massachusetts/dsc-1163/">http://marklightphotography.com/#/gallery/boston-massachusetts/dsc-1163/</a></p>
-				
+		A friend's photography website: <a href="http://marklightphotography.com/#/gallery/boston-massachusetts/dsc-1163/" class="regular">http://marklightphotography.com/#/gallery/boston-massachusetts/dsc-1163/</a></p>
+		<div>
+		<br />
+		<h2>Sketches</h2>
+		<img src='../images/p4_sketch.png'>
+		</div>
 	</div>
+</body>

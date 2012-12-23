@@ -77,7 +77,7 @@ class users_controller extends base_controller {
 		# Login passwed
 		else {
 			setcookie("token", $token, strtotime('+2 weeks'), '/');
-			Router::redirect("/");
+			Router::redirect("/posts/add");
 		}
 
 	}

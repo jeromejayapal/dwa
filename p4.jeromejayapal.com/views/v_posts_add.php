@@ -1,8 +1,8 @@
 <form method='POST' action='/posts/p_add'>
 	<strong>New Post:</strong><br>
-	<textarea name='title'></textarea>
+	Title:<textarea name='title'></textarea>
 	<br />
-	<textarea name='content'></textarea>
+	Content:<textarea name='content'></textarea>
 
 	<br><br>
 	<input type='submit'>
