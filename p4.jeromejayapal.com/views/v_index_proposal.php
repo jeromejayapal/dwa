@@ -26,7 +26,7 @@
 		
 		Technically, you are able to create your own profile at p4.jeromejayapal.com/users/signup but their posts do not
 		show up on the homepage but instead on the p4.jeromejayapal.com/posts/index. You can logout at p4.jeromejayapal.com/users/logout.
-		These options are left in because I may decided to incorporate some sort of community within the website in the future.
+		These webpages are left in because I may decide to incorporate some sort of community in the future.
 		</p>
 		
 		

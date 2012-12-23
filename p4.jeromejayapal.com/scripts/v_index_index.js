@@ -1,7 +1,7 @@
         $('document').ready(function() { // start doc ready; do not delete this!        
                 
-                $('#logo').click(function() {        
-                        console.log("You clicked on Logo.");
+                $('.jquery').click(function() {        
+                        alert("Enter a title for your post");
                 });
         
         }); // end doc ready
