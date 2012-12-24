@@ -1,6 +1,6 @@
         $('document').ready(function() { // start doc ready; do not delete this!        
                 
-                $('.jquery').click(function() {        
+                $('.title').click(function() {        
                         alert("Enter a title for your post");
                 });
         
@@ -8,8 +8,8 @@
         
 		$('document').ready(function() { // start doc ready; do not delete this!        
                 
-                $('.home').click(function() {        
-                        console.log("You clicked on Logo.");
+                $('.submit').click(function() {        
+                        alert("You have submitted a new blog post");
                 });
         
         }); // end doc ready

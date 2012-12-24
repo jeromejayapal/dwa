@@ -11,15 +11,16 @@
 </head>
 	
 <body>
+	<div id='blog'>
 <form method='POST' action='/posts/p_add'>
 	<strong>New Post:</strong><br>
-	Title:<textarea name='title' class="jquery"></textarea>
+	<textarea name='title' class="title"></textarea>
 	<br />
-	Content:<textarea name='content'></textarea>
+	<textarea name='content' rows='5' cols='50'></textarea>
 
 	<br><br>
-	<input type='submit'>
-
+	<input class="submit" type='submit'>
+	</div>
 </form>
 </body>
 </html>
